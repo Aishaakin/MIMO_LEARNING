@@ -1,0 +1,21 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr / 60% auto;
+    gap: 2px;
+}
+.grid-item {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #1e96ff;
+    text-align: center;
+    width: 30%;
+} 
+h1 {
+    text-align: center;
+    font-size: medium;
+    color: aqua;
+}
+.item1 {
+    grid-column: span 2;
+    grid-row: span 2;
+}

@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    filter: blur(2px);
+}
+
+.firstflexbox {
+    background-color: aqua;
+    color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    padding: 15px;
+    margin: 2px;
+    border: 2px solid #f3f3f3;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    background-color: chartreuse;
+    color: burlywood;
+}
+
+.flexitem {
+padding: 20px;
+margin: 8px;
+border: 3px solid brown;
+}
+
+.restuarant {
+    display: flex;
+    background-color: #f0f5fd;
+    flex-direction: column;
+    height: 260px;
+    justify-content: space-around;
+}
+
+.you {
+    background-color: #d9e8fb;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: #d9e8fb;
+}
+
+h2 {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+h5 {
+text-align: end;
+background-color: deepskyblue;
+color: black;
+}
+
+.science {
+    display: flex;
+    flex-direction: row;
+    height: 260x;
+    padding: 15px;
+    margin: 20 auto;
+    background-color: lightcoral;
+}
+
+.subject {
+    text-align: center;
+    color:#d9e8fb;
+    border: 2px solid yellow;
+}
